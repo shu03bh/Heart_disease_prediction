@@ -60,7 +60,7 @@ This project is a comprehensive web application designed to predict the likeliho
 
 ## Dataset
 
-The project uses a dataset containing various health metrics relevant to heart disease prediction. EnsuThe dataset, sourced from Kaggle, has been preprocessed for this project. The model was then trained and tested on this processed dataset to ensure reliable predictions.
+The project uses a dataset containing various health metrics relevant to heart disease prediction. The dataset, sourced from Kaggle, has been preprocessed for this project. The model was then trained and tested on this processed dataset to ensure reliable predictions.
 
 ## Contributing
 
