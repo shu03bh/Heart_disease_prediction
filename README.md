@@ -23,6 +23,20 @@ This project is a comprehensive web application designed to predict the likeliho
 --**Customizable and Scalable**: Easily adaptable for additional features, such as integrating more health metrics or extending the model to include other health conditions.
 
 
+
+## Machine Learning Algorithms Used
+The project employs a variety of machine learning algorithms to evaluate and predict heart disease risk:
+
+- **RandomForestClassifier**: An ensemble learning method that uses multiple decision trees to improve prediction accuracy.
+- **AdaBoostClassifier**: Boosts the performance of a weak classifier by combining multiple classifiers to create a strong classifier.
+- **GradientBoostingClassifier**: Builds models in a sequential manner, each correcting the errors of its predecessor, to enhance predictive performance.
+- **LogisticRegression**: A statistical method for binary classification that predicts the probability of a binary outcome.
+- **SVC (Support Vector Classifier)**: Finds the optimal hyperplane that best separates different classes in the feature space.
+- **KNeighborsClassifier**: Classifies data based on the majority vote from the nearest neighbors in the feature space.
+- **DecisionTreeClassifier**: Uses a tree-like model of decisions and their possible consequences to make predictions.
+- **GaussianNB**: Assumes that features follow a normal distribution and is used for classification tasks.
+- **XGBClassifier**: An implementation of gradient boosting that is optimized for speed and performance, often used for large-scale problems.
+
 ## Technologies Used
 
 - **Python**: For machine learning model development and data processing.
@@ -48,6 +62,17 @@ This project is a comprehensive web application designed to predict the likeliho
    ```bash
    pip install -r requirements.txt
    ```
+
+   Required Packages:
+The requirements.txt file includes the following essential packages:
+
+**Flask**: For building the backend API and serving the web application.
+**scikit-learn**: For implementing and using the machine learning models.
+**pandas**: For data manipulation and preprocessing.
+**numpy**: For numerical operations.
+**os**: For operating system interactions.
+**pickle**: For serializing and deserializing Python objects.
+**xgboost**: For the XGBClassifier (if used).
 
 4. **Run the Application**:
    Start the Flask server to run the web application.
